@@ -1,0 +1,17 @@
+.player {
+  height: 10rem;
+  width: 10rem;
+  background-color: red;
+  position: absolute;
+}
+
+.obstacle {
+  background-color: blue;
+  position: absolute;
+}
+
+.obstacle--text {
+  text-align: center;
+  margin-top: 50%;
+  transform: translatey(-50%)
+}

@@ -22,10 +22,10 @@ function Map1() {
     setAlert("");
   };
 
-  const [obstacleHeight, setObstacleHeight] = useState(10);
-  const [obstacleWidth, setObstacleWidth] = useState(10);
-  const [obstacleTop, setObstacleTop] = useState(20);
-  const [obstacleLeft, setObstacleLeft] = useState(20);
+  const obstacleHeight = 10;
+  const obstacleWidth = 10;
+  const obstacleTop = 20;
+  const obstacleLeft = 20;
 
   const handleKeyDown = function (e) {
     if (e.key == "d") {
@@ -85,7 +85,7 @@ function Map1() {
 
   console.log(`this is X = ${x}`);
   console.log(`this is Y = ${y}`);
-  console.log(obstacleLeft - obstacleWidth)
+  console.log(obstacleLeft - obstacleWidth);
 
   return (
     <div
@@ -94,6 +94,22 @@ function Map1() {
       onKeyDown={handleKeyDown}
       tabIndex={0}
     >
+      <div className="controls-wrapper">
+        <div className="instructions title">Controls</div>
+        <div className="instructions">Up: W</div>
+        <div className="instructions">Right: D</div>
+        <div className="instructions">Down: S</div>
+        <div className="instructions">Left: A</div>
+      </div>
+      <div className="controls-wrapper">
+        <div className="instructions title">Mission</div>
+        <div className="instructions">Touch the blue square with the red one!</div>
+      </div>
+      <div className="controls-wrapper">
+        <div className="instructions title">Troubleshoot</div>
+        <div className="instructions">Click on the black background if the controls don't work!</div>
+      </div>
+
       <Player xTunnel={x} yTunnel={y}></Player>
       <Obstacle
         styleTunnel={opacity}

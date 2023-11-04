@@ -5,3 +5,21 @@
   background-color: black;
   transform: scale(0.5);
 }
+
+.instructions {
+  color: white;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.title {
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.controls-wrapper {
+  transform: translatey(3rem);
+  margin-right: 2rem;
+  margin-left: 70%;
+  margin-bottom: 2rem;
+}

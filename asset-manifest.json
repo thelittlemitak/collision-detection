@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/collision-detection/static/css/main.9ed40fed.css",
+    "main.js": "/collision-detection/static/js/main.fdd9149f.js",
+    "index.html": "/collision-detection/index.html",
+    "main.9ed40fed.css.map": "/collision-detection/static/css/main.9ed40fed.css.map",
+    "main.fdd9149f.js.map": "/collision-detection/static/js/main.fdd9149f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ed40fed.css",
+    "static/js/main.fdd9149f.js"
+  ]
+}
